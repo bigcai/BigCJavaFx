@@ -1,0 +1,29 @@
+<linked-list>
+  <ModbusRequest>
+    <name>Modbus_192_168_0_191_6001_1_XRow_DX_AI_0x0100_0x51</name>
+    <commandType>3</commandType>
+    <destinationHost>192.168.0.191</destinationHost>
+    <port>6001</port>
+    <busId>1</busId>
+    <length>81</length>
+    <registerNumber>256</registerNumber>
+  </ModbusRequest>
+  <ModbusRequest>
+    <name>Modbus_192_168_0_191_6001_1_XRow_DX_AI_0x0500_0x8C</name>
+    <commandType>3</commandType>
+    <destinationHost>192.168.0.191</destinationHost>
+    <port>6001</port>
+    <busId>1</busId>
+    <length>0x8C</length>
+    <registerNumber>1280</registerNumber>
+  </ModbusRequest>
+  <ModbusRequest>
+    <name>Modbus_192_168_0_191_6001_1_Row_DX_AI_0x0200_0x1C</name>
+    <commandType>3</commandType>
+    <destinationHost>192.168.0.191</destinationHost>
+    <port>6001</port>
+    <busId>1</busId>
+    <length>28</length>
+    <registerNumber>512</registerNumber>
+  </ModbusRequest>
+</linked-list>

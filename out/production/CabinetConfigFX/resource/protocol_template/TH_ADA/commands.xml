@@ -1,0 +1,20 @@
+<linked-list>
+    <ModbusRequest>
+        <name>Modubs_10_234_211_64_6001_1_THADA_1_AI_8_12</name>
+        <commandType>3</commandType>
+        <destinationHost>10.100.176.104</destinationHost>
+        <port>6001</port>
+        <busId>1</busId>
+        <length>12</length>
+        <registerNumber>8</registerNumber>
+    </ModbusRequest>
+    <ModbusRequest>
+        <name>Modubs_10_234_211_64_6001_1_THADA_1_DI_14_7</name>
+        <commandType>1</commandType>
+        <destinationHost>10.100.176.104</destinationHost>
+        <port>6001</port>
+        <busId>1</busId>
+        <length>7</length>
+        <registerNumber>14</registerNumber>
+    </ModbusRequest>
+</linked-list>

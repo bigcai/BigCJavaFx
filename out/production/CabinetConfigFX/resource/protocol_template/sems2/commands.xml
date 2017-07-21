@@ -1,0 +1,21 @@
+<!--SEM2-->
+<linked-list>
+    <ModbusRequest>
+        <name>Modubs_10_234_211_102_6001_1_SEMS2_AI_2_8</name>
+        <commandType>3</commandType>
+        <destinationHost>10.234.211.102</destinationHost>
+        <port>6001</port>
+        <busId>1</busId>
+        <length>8</length>
+        <registerNumber>2</registerNumber>
+    </ModbusRequest>
+    <ModbusRequest>
+        <name>Modubs_10_234_211_102_6001_1_SEMS2_DI_3_17</name>
+        <commandType>1</commandType>
+        <destinationHost>10.234.211.102</destinationHost>
+        <port>6001</port>
+        <busId>1</busId>
+        <length>17</length>
+        <registerNumber>3</registerNumber>
+    </ModbusRequest>
+</linked-list>

@@ -1,0 +1,11 @@
+<linked-list>
+  <ModbusRequest>
+    <name>Modbus_192_168_168_10_6001_2_AI_1_16</name>
+    <commandType>3</commandType>
+    <destinationHost>192.168.168.10</destinationHost>
+    <port>6001</port>
+    <busId>2</busId>
+    <length>16</length>
+    <registerNumber>1</registerNumber>
+  </ModbusRequest>
+</linked-list>

@@ -1,0 +1,530 @@
+<linked-list>
+  <AlertDefine>
+    <id>25001</id>
+    <title>空调回风高温报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>空调回风高温</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>96bc7d5e-1983-4997-af5f-8b5dfe7f2fc1</deviceId>
+        <propertyPath>XRowDX.Alert.ReturnAir.Temperature.Over</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>25002</id>
+    <title>空调回风低温报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>空调回风低温</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>96bc7d5e-1983-4997-af5f-8b5dfe7f2fc1</deviceId>
+        <propertyPath>XRowDX.Alert.ReturnAir.Temperature.Less</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>25003</id>
+    <title>空调回风高湿报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>空调回风高湿</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>96bc7d5e-1983-4997-af5f-8b5dfe7f2fc1</deviceId>
+        <propertyPath>XRowDX.Alert.ReturnAir.Humidity.Over</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>25004</id>
+    <title>空调回风低湿报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>空调回风低湿</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>96bc7d5e-1983-4997-af5f-8b5dfe7f2fc1</deviceId>
+        <propertyPath>XRowDX.Alert.ReturnAir.Humidity.Less</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>25005</id>
+    <title>空调回风温感#1故障报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>空调回风温感#1故障</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>96bc7d5e-1983-4997-af5f-8b5dfe7f2fc1</deviceId>
+        <propertyPath>XRowDX.Alert.ReturnAir.T.1.Touble</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>25006</id>
+    <title>空调回风温感#2故障报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>空调回风温感#2故障</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>96bc7d5e-1983-4997-af5f-8b5dfe7f2fc1</deviceId>
+        <propertyPath>XRowDX.Alert.ReturnAir.T.2.Touble</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>25007</id>
+    <title>空调回风温感#3故障报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>空调回风温感#3故障</name>
+      <limit>2</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>96bc7d5e-1983-4997-af5f-8b5dfe7f2fc1</deviceId>
+        <propertyPath>XRowDX.Alert.ReturnAir.T.3.Touble</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>25008</id>
+    <title>空调出风温感#1故障报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>空调出风温感#1故障</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>96bc7d5e-1983-4997-af5f-8b5dfe7f2fc1</deviceId>
+        <propertyPath>XRowDX.Alert.OutAir.1.T.Touble</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>25009</id>
+    <title>空调出风温感#2故障报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>空调出风温感#2故障</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>96bc7d5e-1983-4997-af5f-8b5dfe7f2fc1</deviceId>
+        <propertyPath>XRowDX.Alert.OutAir.2.T.Touble</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>25010</id>
+    <title>空调出风温感#3故障报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>空调出风温感#3故障</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>96bc7d5e-1983-4997-af5f-8b5dfe7f2fc1</deviceId>
+        <propertyPath>XRowDX.Alert.OutAir.3.T.Touble</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>25011</id>
+    <title>空调回风湿感#1故障报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>空调回风湿感#1故障</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>96bc7d5e-1983-4997-af5f-8b5dfe7f2fc1</deviceId>
+        <propertyPath>XRowDX.Alert.ReturnAir.1.H.Touble</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>25012</id>
+    <title>空调回风湿感#2故障报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>空调回风湿感#1故障</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>96bc7d5e-1983-4997-af5f-8b5dfe7f2fc1</deviceId>
+        <propertyPath>XRowDX.Alert.ReturnAir.2.H.Touble</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>25013</id>
+    <title>空调回风湿感#3故障报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>空调回风湿感#3故障</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>96bc7d5e-1983-4997-af5f-8b5dfe7f2fc1</deviceId>
+        <propertyPath>XRowDX.Alert.ReturnAir.3.H.Touble</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>25014</id>
+    <title>空调出风湿感#1故障报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>空调出风湿感#1故障</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>96bc7d5e-1983-4997-af5f-8b5dfe7f2fc1</deviceId>
+        <propertyPath>XRowDX.Alert.OutAir.1.H.Touble</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>25015</id>
+    <title>空调出风湿感#2故障报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>空调出风湿感#2故障</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>96bc7d5e-1983-4997-af5f-8b5dfe7f2fc1</deviceId>
+        <propertyPath>XRowDX.Alert.OutAir.2.H.Touble</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>25016</id>
+    <title>空调出风湿感#3故障报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>空调出风湿感#3故障</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>96bc7d5e-1983-4997-af5f-8b5dfe7f2fc1</deviceId>
+        <propertyPath>XRowDX.Alert.OutAir.3.H.Touble</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>25021</id>
+    <title>空调内风机#1故障报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>空调内风机#1故障</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>96bc7d5e-1983-4997-af5f-8b5dfe7f2fc1</deviceId>
+        <propertyPath>XRowDX.Alert.WithinFan.1.Touble</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>25022</id>
+    <title>空调内风机#2故障报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>空调内风机#2故障</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>96bc7d5e-1983-4997-af5f-8b5dfe7f2fc1</deviceId>
+        <propertyPath>XRowDX.Alert.WithinFan.2.Touble</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>25023</id>
+    <title>空调内风机#3故障报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>空调内风机#3故障</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>96bc7d5e-1983-4997-af5f-8b5dfe7f2fc1</deviceId>
+        <propertyPath>XRowDX.Alert.WithinFan.3.Touble</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>25024</id>
+    <title>空调内风机#4故障报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>空调内风机#4故障</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>96bc7d5e-1983-4997-af5f-8b5dfe7f2fc1</deviceId>
+        <propertyPath>XRowDX.Alert.WithinFan.4.Touble</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>25025</id>
+    <title>空调内风机#5故障报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>空调内风机#5故障</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>96bc7d5e-1983-4997-af5f-8b5dfe7f2fc1</deviceId>
+        <propertyPath>XRowDX.Alert.WithinFan.5.Touble</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>25026</id>
+    <title>空调内风机#6故障报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>空调内风机#6故障</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>96bc7d5e-1983-4997-af5f-8b5dfe7f2fc1</deviceId>
+        <propertyPath>XRowDX.Alert.WithinFan.6.Touble</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>25027</id>
+    <title>空调内风机#7故障报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>空调内风机#7故障</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>96bc7d5e-1983-4997-af5f-8b5dfe7f2fc1</deviceId>
+        <propertyPath>XRowDX.Alert.WithinFan.7.Touble</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>25028</id>
+    <title>空调内风机#8故障报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>空调内风机#8故障</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>96bc7d5e-1983-4997-af5f-8b5dfe7f2fc1</deviceId>
+        <propertyPath>XRowDX.Alert.WithinFan.8.Touble</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>25031</id>
+    <title>空调电源#1故障报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>空调电源#1故障</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>96bc7d5e-1983-4997-af5f-8b5dfe7f2fc1</deviceId>
+        <propertyPath>XRowDX.Alert.Power.1.Touble</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>25032</id>
+    <title>空调电源#2故障报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>空调电源#2故障</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>96bc7d5e-1983-4997-af5f-8b5dfe7f2fc1</deviceId>
+        <propertyPath>XRowDX.Alert.Power.2.Touble</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>25033</id>
+    <title>空调水阀#1故障报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>空调水阀#1故障</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>96bc7d5e-1983-4997-af5f-8b5dfe7f2fc1</deviceId>
+        <propertyPath>XRowDX.Alert.Valve.Touble</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>25040</id>
+    <title>地板溢水报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>地板溢水故障</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>96bc7d5e-1983-4997-af5f-8b5dfe7f2fc1</deviceId>
+        <propertyPath>XRowDX.Alert.Floor.Overflow</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>25041</id>
+    <title>空调制冷系统异常报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>空调制冷系统异常</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>96bc7d5e-1983-4997-af5f-8b5dfe7f2fc1</deviceId>
+        <propertyPath>XRowDX.Alert.RefrigerationSystem.Exception</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>25042</id>
+    <title>空调烟感报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>空调烟感</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>96bc7d5e-1983-4997-af5f-8b5dfe7f2fc1</deviceId>
+        <propertyPath>XRowDX.Alert.Smoke</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>25050</id>
+    <title>空调异常掉电报警</title>
+    <category>1</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>空调异常掉电</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>96bc7d5e-1983-4997-af5f-8b5dfe7f2fc1</deviceId>
+        <propertyPath>XRowDX.Alert.Power.Failure</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>25061</id>
+    <title>空调出风高温报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>空调出风高温</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>96bc7d5e-1983-4997-af5f-8b5dfe7f2fc1</deviceId>
+        <propertyPath>XRowDX.Alert.OutAir.Temperature.Over</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>25061</id>
+    <title>空调出风低温报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>空调出风低温</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>96bc7d5e-1983-4997-af5f-8b5dfe7f2fc1</deviceId>
+        <propertyPath>XRowDX.Alert.OutAir.Temperature.Less</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+</linked-list>

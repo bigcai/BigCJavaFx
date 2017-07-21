@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root type="javafx.scene.layout.VBox" style="-fx-background-color: #fff" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="41.0" prefWidth="927.0"  xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+      <FlowPane prefHeight="480.0" prefWidth="927.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="colums_name" prefHeight="35.0" prefWidth="316.0" text="Label">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </Label>
+             <Label fx:id="colums_doc" prefHeight="35.0" prefWidth="315.0" text="Label">
+                 <padding>
+                     <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                 </padding>
+             </Label>
+             <!--<Label fx:id="colums_leader" prefHeight="35.0" prefWidth="99.0" text="Label">
+                 <padding>
+                     <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                 </padding>
+             </Label>-->
+             <ProgressBar fx:id="colums_ProgressBar" prefHeight="35.0" prefWidth="171.0" >
+                 <padding>
+                     <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                 </padding>
+             </ProgressBar>
+
+             <FlowPane prefHeight="46.0" prefWidth="110.0" BorderPane.alignment="CENTER">
+                 <children>
+                     <Button fx:id="downloadBtn" mnemonicParsing="false" text="下载" >
+                     <FlowPane.margin>
+                        <Insets left="10.0" right="10.0" top="10.0" />
+                     </FlowPane.margin></Button>
+                     <Button fx:id="deleteBtn" mnemonicParsing="false" text="删除" style="-fx-background-color: #FF3300; -fx-text-fill: #fff; -fx-effect: dropshadow( one-pass-box , black , 6 , 0.0 , 2 , 0 );">
+                     <FlowPane.margin>
+                        <Insets right="10.0" top="10.0" />
+                     </FlowPane.margin></Button>
+                 </children></FlowPane>
+         </children>
+      </FlowPane>
+</fx:root>

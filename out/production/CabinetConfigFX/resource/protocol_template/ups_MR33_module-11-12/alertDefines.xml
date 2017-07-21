@@ -1,0 +1,35 @@
+<linked-list>
+    <AlertDefine>
+        <id>40021</id>
+        <title>UPS-模块11故障</title>
+        <category>4</category>
+        <level>0</level>
+        <descriptionPattern>{l:name}报警</descriptionPattern>
+        <rule class="Equal">
+            <name>UPS-模块11故障</name>
+            <limit>1</limit>
+            <sensorValue class="SimpleSensorValue">
+                <deviceId>d1a53f97-74e4-4e56-b8c7-0e3d57e54a8c</deviceId>
+                <propertyPath>MR33.11.Alarm.State</propertyPath>
+            </sensorValue>
+        </rule>
+        <enable>true</enable>
+    </AlertDefine>
+    <AlertDefine>
+        <id>40022</id>
+        <title>UPS-模块12故障</title>
+        <category>4</category>
+        <level>0</level>
+        <descriptionPattern>{l:name}报警</descriptionPattern>
+        <rule class="Equal">
+            <name>UPS-模块12故障</name>
+            <limit>1</limit>
+            <sensorValue class="SimpleSensorValue">
+                <deviceId>d1a53f97-74e4-4e56-b8c7-0e3d57e54a8c</deviceId>
+                <propertyPath>MR33.12.Alarm.State</propertyPath>
+            </sensorValue>
+        </rule>
+        <enable>true</enable>
+    </AlertDefine>
+</linked-list>
+

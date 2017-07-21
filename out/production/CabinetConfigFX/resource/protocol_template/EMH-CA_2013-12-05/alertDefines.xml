@@ -1,0 +1,146 @@
+<linked-list>
+  <AlertDefine>
+    <id>11000</id>
+    <title>环境主机总报警</title>
+    <category>1</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>环境主机</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>2ca4a086-645c-11e6-8b77-86f30ca893d3</deviceId>
+        <propertyPath>EMH.Alert.All</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>21000</id>
+    <title>环境主机温度越值</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>环境主机温度越值</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>2ca4a086-645c-11e6-8b77-86f30ca893d3</deviceId>
+        <propertyPath>EMH.Alert.Temperature.Over</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>21001</id>
+    <title>环境主机温度欠值</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>环境主机温度欠值</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>2ca4a086-645c-11e6-8b77-86f30ca893d3</deviceId>
+        <propertyPath>EMH.Alert.Temperature.Less</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>21003</id>
+    <title>环境主机湿度越值</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>环境主机湿度越值</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>2ca4a086-645c-11e6-8b77-86f30ca893d3</deviceId>
+        <propertyPath>EMH.Alert.Humidity.Over</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>21004</id>
+    <title>环境主机湿度欠值</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>环境主机湿度欠值</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>2ca4a086-645c-11e6-8b77-86f30ca893d3</deviceId>
+        <propertyPath>EMH.Alert.Humidity.Less</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>21005</id>
+    <title>烟感报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>环境主机烟感</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>2ca4a086-645c-11e6-8b77-86f30ca893d3</deviceId>
+        <propertyPath>EMH.Alert.Smoke</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>21006</id>
+    <title>水浸报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>环境主机水浸</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>2ca4a086-645c-11e6-8b77-86f30ca893d3</deviceId>
+        <propertyPath>EMH.Alert.Water</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>41000</id>
+    <title>门磁报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>门磁</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>2ca4a086-645c-11e6-8b77-86f30ca893d3</deviceId>
+        <propertyPath>EMH.Alert.Magnetometer</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>21007</id>
+    <title>气压报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>环境主机气压</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>2ca4a086-645c-11e6-8b77-86f30ca893d3</deviceId>
+        <propertyPath>EMH.Alert.Pressure</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+</linked-list>

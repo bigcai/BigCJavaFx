@@ -1,0 +1,314 @@
+<linked-list>
+<AlertDefine>
+    <id>10000</id>
+    <title>机柜1-1U位管理掉线</title>
+    <category>4</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-1U位管理掉线</descriptionPattern>
+    <rule class="ValueNull">
+      <name>U位管理</name>
+      <deviceId>acd50038-3e28-41dd-aa78-df85c391a567</deviceId>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+<AlertDefine>
+    <id>10000</id>
+    <title>机柜1-2U位管理掉线</title>
+    <category>4</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-2U位管理掉线</descriptionPattern>
+    <rule class="ValueNull">
+      <name>U位管理</name>
+      <deviceId>cb3bef6f-58f4-4585-927c-fd5384861806</deviceId>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+<AlertDefine>
+    <id>10000</id>
+    <title>机柜1-3U位管理掉线</title>
+    <category>4</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-3U位管理掉线</descriptionPattern>
+    <rule class="ValueNull">
+      <name>U位管理</name>
+      <deviceId>6a70b200-abe8-43f5-b21b-6498fb55ca40</deviceId>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+<AlertDefine>
+    <id>10000</id>
+    <title>机柜1-4U位管理掉线</title>
+    <category>4</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-4U位管理掉线</descriptionPattern>
+    <rule class="ValueNull">
+      <name>U位管理</name>
+      <deviceId>31d91446-b332-4e70-b93d-b836a6c06208</deviceId>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+<AlertDefine>
+    <id>10000</id>
+    <title>机柜1-5U位管理掉线</title>
+    <category>4</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-5U位管理掉线</descriptionPattern>
+    <rule class="ValueNull">
+      <name>U位管理</name>
+      <deviceId>472191cb-4559-4728-be39-c242a963a898</deviceId>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+<AlertDefine>
+    <id>10000</id>
+    <title>机柜1-6U位管理掉线</title>
+    <category>4</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-6U位管理掉线</descriptionPattern>
+    <rule class="ValueNull">
+      <name>U位管理</name>
+      <deviceId>00fb0234-753d-48e1-ac6c-361319674324</deviceId>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+<AlertDefine>
+    <id>10000</id>
+    <title>机柜1-7U位管理掉线</title>
+    <category>4</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-7U位管理掉线</descriptionPattern>
+    <rule class="ValueNull">
+      <name>U位管理</name>
+      <deviceId>994cdc48-9179-4fd5-81ad-44b2731a518d</deviceId>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+<AlertDefine>
+    <id>10000</id>
+    <title>机柜1-8U位管理掉线</title>
+    <category>4</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-8U位管理掉线</descriptionPattern>
+    <rule class="ValueNull">
+      <name>U位管理</name>
+      <deviceId>071276d0-cc1c-4f7d-bbd0-651fb5772536</deviceId>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+<AlertDefine>
+    <id>10000</id>
+    <title>机柜1-9U位管理掉线</title>
+    <category>4</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-9U位管理掉线</descriptionPattern>
+    <rule class="ValueNull">
+      <name>U位管理</name>
+      <deviceId>c5d9063a-390e-4edd-91dc-39721d3435c5</deviceId>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+<AlertDefine>
+    <id>10000</id>
+    <title>机柜1-10U位管理掉线</title>
+    <category>4</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-10U位管理掉线</descriptionPattern>
+    <rule class="ValueNull">
+      <name>U位管理</name>
+      <deviceId>a9cf2b4c-e064-4dd8-8120-8792f310572e</deviceId>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+<AlertDefine>
+    <id>10000</id>
+    <title>机柜1-11U位管理掉线</title>
+    <category>4</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-11U位管理掉线</descriptionPattern>
+    <rule class="ValueNull">
+      <name>U位管理</name>
+      <deviceId>cd0f4015-f906-4bec-b88b-93ad65b4aa7c</deviceId>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+<AlertDefine>
+    <id>10000</id>
+    <title>机柜1-12U位管理掉线</title>
+    <category>4</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-12U位管理掉线</descriptionPattern>
+    <rule class="ValueNull">
+      <name>U位管理</name>
+      <deviceId>89a3dc3b-196f-44a3-81df-9bf2218f37e3</deviceId>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+<AlertDefine>
+    <id>10000</id>
+    <title>机柜1-13U位管理掉线</title>
+    <category>4</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-13U位管理掉线</descriptionPattern>
+    <rule class="ValueNull">
+      <name>U位管理</name>
+      <deviceId>6ef245dc-1c65-46cf-90db-f8a8866213c3</deviceId>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+<AlertDefine>
+    <id>10000</id>
+    <title>机柜1-14U位管理掉线</title>
+    <category>4</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-14U位管理掉线</descriptionPattern>
+    <rule class="ValueNull">
+      <name>U位管理</name>
+      <deviceId>87d3ee95-71cb-4124-91c1-643a3abf9dab</deviceId>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+<AlertDefine>
+    <id>10000</id>
+    <title>机柜1-15U位管理掉线</title>
+    <category>4</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-15U位管理掉线</descriptionPattern>
+    <rule class="ValueNull">
+      <name>U位管理</name>
+      <deviceId>a990677d-59df-42f6-9817-83e1c3e35255</deviceId>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+<AlertDefine>
+    <id>10000</id>
+    <title>机柜1-16U位管理掉线</title>
+    <category>4</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-16U位管理掉线</descriptionPattern>
+    <rule class="ValueNull">
+      <name>U位管理</name>
+      <deviceId>427ced9c-3026-4832-972b-b0a183607f10</deviceId>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+<AlertDefine>
+    <id>10000</id>
+    <title>机柜1-17U位管理掉线</title>
+    <category>4</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-17U位管理掉线</descriptionPattern>
+    <rule class="ValueNull">
+      <name>U位管理</name>
+      <deviceId>f23d3835-f895-4539-892c-7be5c6ab51c0</deviceId>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+<AlertDefine>
+    <id>10000</id>
+    <title>机柜1-18U位管理掉线</title>
+    <category>4</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-18U位管理掉线</descriptionPattern>
+    <rule class="ValueNull">
+      <name>U位管理</name>
+      <deviceId>88a145d3-6c6d-4e2a-9420-7272abc5fa87</deviceId>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+<AlertDefine>
+    <id>10000</id>
+    <title>机柜1-19U位管理掉线</title>
+    <category>4</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-19U位管理掉线</descriptionPattern>
+    <rule class="ValueNull">
+      <name>U位管理</name>
+      <deviceId>866a8f78-4515-4319-93ba-d46dabfa0ffd</deviceId>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+<AlertDefine>
+    <id>10000</id>
+    <title>机柜1-20U位管理掉线</title>
+    <category>4</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-20U位管理掉线</descriptionPattern>
+    <rule class="ValueNull">
+      <name>U位管理</name>
+      <deviceId>ccdee0c5-337e-4bb6-a073-f067513d6630</deviceId>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+<AlertDefine>
+    <id>10000</id>
+    <title>机柜1-21U位管理掉线</title>
+    <category>4</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-21U位管理掉线</descriptionPattern>
+    <rule class="ValueNull">
+      <name>U位管理</name>
+      <deviceId>9d843bdf-ac4a-45f8-9a45-99c10fdf9076</deviceId>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+<AlertDefine>
+    <id>10000</id>
+    <title>机柜1-22U位管理掉线</title>
+    <category>4</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-22U位管理掉线</descriptionPattern>
+    <rule class="ValueNull">
+      <name>U位管理</name>
+      <deviceId>58c7b5de-9ebd-4f48-b67f-596cb4d457dc</deviceId>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+<AlertDefine>
+    <id>10000</id>
+    <title>机柜1-23U位管理掉线</title>
+    <category>4</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-23U位管理掉线</descriptionPattern>
+    <rule class="ValueNull">
+      <name>U位管理</name>
+      <deviceId>9d8ff464-8c7f-4248-b73d-d80d91f14174</deviceId>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+<AlertDefine>
+    <id>10000</id>
+    <title>机柜1-24U位管理掉线</title>
+    <category>4</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-24U位管理掉线</descriptionPattern>
+    <rule class="ValueNull">
+      <name>U位管理</name>
+      <deviceId>d2162294-cbcd-4f6d-9bed-ab5b5a1e92d1</deviceId>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+<AlertDefine>
+    <id>10000</id>
+    <title>机柜1-25U位管理掉线</title>
+    <category>4</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-25U位管理掉线</descriptionPattern>
+    <rule class="ValueNull">
+      <name>U位管理</name>
+      <deviceId>86553102-a199-4fe5-ad5e-0d200a8af77f</deviceId>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+<AlertDefine>
+    <id>10000</id>
+    <title>机柜1-26U位管理掉线</title>
+    <category>4</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-26U位管理掉线</descriptionPattern>
+    <rule class="ValueNull">
+      <name>U位管理</name>
+      <deviceId>69c0e528-8b7c-4db1-b819-7d12d7fda5a5</deviceId>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+</linked-list>

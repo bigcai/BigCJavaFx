@@ -1,0 +1,82 @@
+<linked-list>
+  <AlertDefine>
+    <id>21005</id>
+    <title>烟感报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>环境主机烟感</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>e1a84bf5-f0ab-478c-a3dd-b0c7df039fce</deviceId>
+        <propertyPath>InOne.Smoke.state</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>21006</id>
+    <title>水浸报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>环境主机水浸</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>e1a84bf5-f0ab-478c-a3dd-b0c7df039fce</deviceId>
+        <propertyPath>InOne.Water.state</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>41000</id>
+    <title>门磁-1报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>门磁</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>e1a84bf5-f0ab-478c-a3dd-b0c7df039fce</deviceId>
+        <propertyPath>InOne.1.Magnetometer.state</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>41001</id>
+    <title>门磁-2报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>门磁</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>e1a84bf5-f0ab-478c-a3dd-b0c7df039fce</deviceId>
+        <propertyPath>InOne.2.Magnetometer.state</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>41003</id>
+    <title>倾斜报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>倾斜</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>e1a84bf5-f0ab-478c-a3dd-b0c7df039fce</deviceId>
+        <propertyPath>InOne.Shark.state</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+</linked-list>

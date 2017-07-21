@@ -1,0 +1,15 @@
+<linked-list>
+    <task>
+        <type>com.keydak.DataProcessor.CalcMean</type>
+        <parameters>
+            <property key="filename" value="abc.db"/>
+            <property key="ip" value="192.168.0.1"/>
+        </parameters>
+    </task>
+    <task>
+        <type>com.keydak.DataProcessor.SendRealTimeDataToDisplay</type>
+    </task>
+    <task>
+        <type>com.keydak.DataProcessor.AlertMonitor</type>
+    </task>
+</linked-list>

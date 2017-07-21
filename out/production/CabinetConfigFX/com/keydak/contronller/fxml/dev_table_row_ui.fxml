@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root style="-fx-background-color: #fff" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="41.0" prefWidth="1190.0" type="javafx.scene.layout.VBox" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+      <FlowPane prefHeight="480.0" prefWidth="1190.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="colDeviceName" prefHeight="35.0" prefWidth="128.0" text="Label">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </Label>
+             <Label fx:id="colDeviceType" prefHeight="35.0" prefWidth="144.0" text="Label">
+                 <padding>
+                     <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                 </padding>
+             </Label>
+             <Label fx:id="colPosition" prefHeight="35.0" prefWidth="71.0" text="Label">
+                 <padding>
+                     <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                 </padding>
+             </Label>
+             <Label  fx:id="colDeviceNo" prefHeight="35.0" prefWidth="151.0" text="Label">
+                 <padding>
+                     <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                 </padding>
+             </Label>
+             <Label  fx:id="colDeviceAddr" prefHeight="35.0" prefWidth="125.0" text="Label">
+                 <padding>
+                     <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                 </padding>
+             </Label>
+             <Label fx:id="colDevicePort" prefHeight="35.0" prefWidth="82.0" text="Label">
+                 <padding>
+                     <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                 </padding>
+             </Label>
+             <Label  fx:id="colBusId" prefHeight="35.0" prefWidth="57.0" text="Label">
+                 <padding>
+                     <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                 </padding>
+             </Label>
+             <FlowPane prefHeight="46.0" prefWidth="421.0" BorderPane.alignment="CENTER">
+                 <children>
+                     <!--<Button fx:id="setAlert" mnemonicParsing="false" text="设置告警">
+                         <FlowPane.margin>
+                             <Insets left="30.0" right="10.0" top="10.0" />
+                         </FlowPane.margin>
+                     </Button>-->
+                 <!--<Button fx:id="setSensor" mnemonicParsing="false" text="管理传感器">
+                     <FlowPane.margin>
+                        <Insets left="10.0" right="10.0" top="10.0" />
+                     </FlowPane.margin>
+                     </Button>-->
+                     <Button fx:id="writeBusId" mnemonicParsing="false" text="写入BusId">
+                         <FlowPane.margin>
+                             <Insets left="10.0" right="10.0" top="10.0" />
+                         </FlowPane.margin></Button>
+
+                     <Button fx:id="edit" mnemonicParsing="false" text="编辑">
+                     <FlowPane.margin>
+                        <Insets right="10.0" top="10.0" />
+                     </FlowPane.margin></Button>
+                     <Button fx:id="deleteBtn" mnemonicParsing="false" text="删除" style="-fx-background-color: #FF3300; -fx-text-fill: #fff; -fx-effect: dropshadow( one-pass-box , black , 6 , 0.0 , 2 , 0 );">
+                        <FlowPane.margin>
+                           <Insets right="10.0" top="10.0" />
+                        </FlowPane.margin>
+                     </Button>
+                     <Button fx:id="copyWithBusId" mnemonicParsing="false" text="复制">
+                         <FlowPane.margin>
+                             <Insets left="10.0" right="10.0" top="10.0" />
+                         </FlowPane.margin></Button>
+                 </children>
+             </FlowPane>
+         </children>
+      </FlowPane>
+</fx:root>

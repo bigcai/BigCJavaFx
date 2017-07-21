@@ -1,0 +1,11 @@
+<linked-list>
+  <ModbusRequest>
+    <name>Modbus_192_168_168_10_6001_2_AI_430_46</name>
+    <commandType>4</commandType>
+    <destinationHost>192.168.168.10</destinationHost>
+    <port>6001</port>
+    <busId>2</busId>
+    <length>46</length>
+    <registerNumber>430</registerNumber>
+  </ModbusRequest>
+</linked-list>

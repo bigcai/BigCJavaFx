@@ -1,0 +1,18 @@
+<linked-list>
+  <AlertDefine>
+    <id>32001</id>
+    <title>PDU电流超流报警</title>
+    <category>3</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>PDU电流</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>e1a84bf5-f0ab-478c-a3dd-b0c7df039fcf</deviceId>
+        <propertyPath>PDU.OverCurrent</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+</linked-list>

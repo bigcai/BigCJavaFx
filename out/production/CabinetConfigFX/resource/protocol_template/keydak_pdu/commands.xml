@@ -1,0 +1,20 @@
+<linked-list>
+    <ModbusRequest>
+        <name>Modbus_192_168_0_186_6001_1_PDU_AI_2_10</name>
+        <commandType>3</commandType>
+        <destinationHost>192.168.0.186</destinationHost>
+        <port>6001</port>
+        <busId>1</busId>
+        <length>10</length>
+        <registerNumber>2</registerNumber>
+    </ModbusRequest>
+    <ModbusRequest>
+        <name>Modbus_192_168_0_186_6001_1_PDU_DI_4_1</name>
+        <commandType>1</commandType>
+        <destinationHost>192.168.0.186</destinationHost>
+        <port>6001</port>
+        <busId>1</busId>
+        <length>1</length>
+        <registerNumber>4</registerNumber>
+    </ModbusRequest>
+</linked-list>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="41.0" prefWidth="1190.0" type="javafx.scene.layout.VBox" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+      <FlowPane prefHeight="480.0" prefWidth="927.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="colSensorName" prefHeight="35.0" prefWidth="325.0" text="Label">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </Label>
+             <Label fx:id="colSensorType" prefHeight="35.0" prefWidth="317.0" text="Label">
+                 <padding>
+                     <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                 </padding>
+             </Label>
+             <Label fx:id="colPosition" prefHeight="35.0" prefWidth="303.0" text="Label">
+                 <padding>
+                     <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                 </padding>
+             </Label>
+             <FlowPane prefHeight="46.0" prefWidth="235.0" BorderPane.alignment="CENTER">
+                 <children>
+                     <Button fx:id="setPosition" mnemonicParsing="false" text="设置位置备注">
+                         <FlowPane.margin>
+                             <Insets left="30.0" right="10.0" top="10.0" />
+                         </FlowPane.margin>
+                     </Button>
+                 </children>
+             </FlowPane>
+         </children>
+      </FlowPane>
+</fx:root>

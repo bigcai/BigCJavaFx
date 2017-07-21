@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root maxHeight="-Infinity"  maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="704.0" prefWidth="1495.0" type="javafx.scene.layout.BorderPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <center >
+        <BorderPane  prefHeight="659.0" prefWidth="1047.0" BorderPane.alignment="CENTER">
+            <top>
+                <Label text="设备管理" style="-fx-font-size: 2em; -fx-text-fill: #4B4B4B;" BorderPane.alignment="TOP_LEFT">
+                    <BorderPane.margin>
+                        <Insets left="20.0" top="12.0" />
+                    </BorderPane.margin>
+                </Label>
+            </top>
+            <center>
+                <Pagination fx:id="pagination" prefHeight="465.0" prefWidth="716.0" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets bottom="10.0" left="30.0" right="10.0" top="10.0" />
+               </BorderPane.margin></Pagination>
+            </center>
+        </BorderPane>
+    </center>
+    <right>
+        <Button fx:id="addDevice" mnemonicParsing="false" text="添加设备" BorderPane.alignment="TOP_RIGHT" style="-fx-font-size: 1.2em; -fx-background-color: #0099FF; -fx-text-fill: #fff;-fx-border-color: rgb(49, 89, 23);-fx-border-radius: 5;-fx-padding: 3 6 6 6;">
+         <BorderPane.margin>
+            <Insets right="150.0" top="10.0" />
+         </BorderPane.margin></Button>
+    </right>
+   <top>
+      <FlowPane prefHeight="33.0" prefWidth="1195.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="项目名称：" style="-fx-font-size: 1.2em; -fx-text-fill: #4B4B4B;">
+               <FlowPane.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </FlowPane.margin></Label>
+            <Label fx:id="projectName" text="花都地随"  style="-fx-font-size: 1.2em; -fx-text-fill: #4B4B4B;" />
+            <Label text="项目负责人："  style="-fx-font-size: 1.2em; -fx-text-fill: #4B4B4B;">
+               <FlowPane.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </FlowPane.margin></Label>
+            <Label fx:id="leader" text="陈先生"   style="-fx-font-size: 1.2em; -fx-text-fill: #4B4B4B;"/>
+            <Button fx:id="backBtn" mnemonicParsing="false" text="返回" style="-fx-padding: 6px 20px; -fx-font-size: 1.2em; -fx-text-fill: #4B4B4B;-fx-border-color: rgb(49, 89, 23);-fx-border-radius: 5;">
+               <FlowPane.margin>
+                  <Insets bottom="20.0" left="900.0" right="20.0" top="20.0" />
+               </FlowPane.margin></Button>
+         </children>
+      </FlowPane>
+   </top>
+</fx:root>

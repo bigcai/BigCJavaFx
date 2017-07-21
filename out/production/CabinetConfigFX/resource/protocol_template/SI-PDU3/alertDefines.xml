@@ -1,0 +1,66 @@
+<linked-list>
+  <AlertDefine>
+    <id>32001</id>
+    <title>PDU电压下限报警</title>
+    <category>3</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}</descriptionPattern>
+    <rule class="Equal">
+      <name>PDU电压下限报警</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>e1a84bf5-f0ab-478c-a3dd-b0c7df039fcf</deviceId>
+        <propertyPath>PDU.Alert.Voltage.L1</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>32002</id>
+    <title>PDU电流下限报警</title>
+    <category>3</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}</descriptionPattern>
+    <rule class="Equal">
+      <name>PDU电压下限报警</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>e1a84bf5-f0ab-478c-a3dd-b0c7df039fcf</deviceId>
+        <propertyPath>PDU.Alert.Current.L1</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>32003</id>
+    <title>电压上限报警</title>
+    <category>3</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}</descriptionPattern>
+    <rule class="Equal">
+      <name>PDU电压上限报警</name>
+      <limit>16</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>e1a84bf5-f0ab-478c-a3dd-b0c7df039fcf</deviceId>
+        <propertyPath>PDU.Alert.Voltage.L1</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>32004</id>
+    <title>PDU电流上限报警</title>
+    <category>3</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}</descriptionPattern>
+    <rule class="Equal">
+      <name>PDU电压上限报警</name>
+      <limit>16</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>e1a84bf5-f0ab-478c-a3dd-b0c7df039fcf</deviceId>
+        <propertyPath>PDU.Alert.Current.L1</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+</linked-list>

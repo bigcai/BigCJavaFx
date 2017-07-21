@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><linked-list>
+  <ModbusRequest>
+    <name>Modbus_192_168_82_184_6001_JiaLieTu_KN10_AC_1_DI_1_183</name>
+    <destinationHost>192.168.82.184</destinationHost>
+    <port>6001</port>
+    <busId>3</busId>
+    <commandType>2</commandType>
+    <registerNumber>1</registerNumber>
+    <length>183</length>
+  </ModbusRequest>
+  <ModbusRequest>
+    <name>Modbus_192_168_82_184_6001_JiaLieTu_KN10_AC_2_AI_1_73</name>
+    <destinationHost>192.168.82.184</destinationHost>
+    <port>6001</port>
+    <busId>3</busId>
+    <commandType>4</commandType>
+    <registerNumber>1</registerNumber>
+    <length>73</length>
+  </ModbusRequest>
+  <ModbusRequest>
+    <name>Modbus_192_168_82_184_6001_JiaLieTu_KN10_AC_3_AI_74_173</name>
+    <destinationHost>192.168.82.184</destinationHost>
+    <port>6001</port>
+    <busId>3</busId>
+    <commandType>4</commandType>
+    <registerNumber>74</registerNumber>
+    <length>173</length>
+  </ModbusRequest>
+</linked-list>

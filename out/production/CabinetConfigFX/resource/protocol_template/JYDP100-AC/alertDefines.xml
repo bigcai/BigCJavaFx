@@ -1,0 +1,18 @@
+<linked-list>
+  <AlertDefine>
+    <id>35001</id>
+    <title>配电柜人体红外感测报警</title>
+    <category>1</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>配电柜人体红外感测</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>9b6bda4f-46a4-4598-88f2-71a0c651a528</deviceId>
+        <propertyPath>FC.State.Infrared</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+</linked-list>

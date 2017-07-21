@@ -1,0 +1,126 @@
+<linked-list>
+<AlertDefine>
+    <id>10000</id>
+    <title>机柜1-1TH_ADA掉线</title>
+    <category>4</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-1TH_ADA掉线报警</descriptionPattern>
+    <rule class="ValueNull">
+      <name>TH_ADA</name>
+      <deviceId>ab748457-29f6-444f-a0a1-6a9833640b92</deviceId>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>33001</id>
+    <title>机柜1-1温度1越值报警</title>
+    <category>1</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-1温度1越值报警</descriptionPattern>
+    <rule class="Equal">
+      <name>机柜1-1温度1越值</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>ab748457-29f6-444f-a0a1-6a9833640b92</deviceId>
+        <propertyPath>THADA.Alert.T.1.Over</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>33002</id>
+    <title>机柜1-1温度2越值报警</title>
+    <category>1</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-1温度2越值报警</descriptionPattern>
+    <rule class="Equal">
+      <name>机柜1-1温度2越值</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>ab748457-29f6-444f-a0a1-6a9833640b92</deviceId>
+        <propertyPath>THADA.Alert.T.2.Over</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>33003</id>
+    <title>机柜1-1温度3越值报警</title>
+    <category>1</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-1温度3越值报警</descriptionPattern>
+    <rule class="Equal">
+      <name>机柜1-1温度3越值</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>ab748457-29f6-444f-a0a1-6a9833640b92</deviceId>
+        <propertyPath>THADA.Alert.T.3.Over</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>33004</id>
+    <title>机柜1-1温度4越值报警</title>
+    <category>1</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-1温度4越值报警</descriptionPattern>
+    <rule class="Equal">
+      <name>机柜1-1温度4越值</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>ab748457-29f6-444f-a0a1-6a9833640b92</deviceId>
+        <propertyPath>THADA.Alert.T.4.Over</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>33005</id>
+    <title>机柜1-1温度5越值报警</title>
+    <category>1</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-1温度5越值报警</descriptionPattern>
+    <rule class="Equal">
+      <name>机柜1-1温度5越值</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>ab748457-29f6-444f-a0a1-6a9833640b92</deviceId>
+        <propertyPath>THADA.Alert.T.5.Over</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>33006</id>
+    <title>机柜1-1温度6越值报警</title>
+    <category>1</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-1温度6越值报警</descriptionPattern>
+    <rule class="Equal">
+      <name>机柜1-1温度6越值</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>ab748457-29f6-444f-a0a1-6a9833640b92</deviceId>
+        <propertyPath>THADA.Alert.T.6.Over</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+  <AlertDefine>
+    <id>33007</id>
+    <title>机柜1-1门磁打开报警</title>
+    <category>1</category>
+    <level>1</level>
+    <descriptionPattern>机柜1-1门磁打开报警</descriptionPattern>
+    <rule class="Equal">
+      <name>机柜1-1门磁打开报警</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>ab748457-29f6-444f-a0a1-6a9833640b92</deviceId>
+        <propertyPath>THADA.State.Magnetometer</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+</linked-list>

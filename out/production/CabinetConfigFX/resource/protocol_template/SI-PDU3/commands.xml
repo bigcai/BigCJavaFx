@@ -1,0 +1,12 @@
+<!--clever PDU-->
+<linked-list>
+    <ModbusRequest2>
+        <name>Modbus_10_234_211_86_6001_1_PDU_AI_2_10</name>
+        <commandType>3</commandType>
+        <destinationHost>10.234.211.86</destinationHost>
+        <port>6001</port>
+        <busId>1</busId>
+        <length>71</length>
+        <registerNumber>0</registerNumber>
+    </ModbusRequest2>
+</linked-list>

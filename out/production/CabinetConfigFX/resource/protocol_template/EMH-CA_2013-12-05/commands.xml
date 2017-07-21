@@ -1,0 +1,30 @@
+<!--15 温湿度，4 气压-->
+<linked-list>
+  <ModbusRequest>
+    <name>Modbus_192_168_0_2_6001_1_EMH_DI_8_111</name>
+    <commandType>1</commandType>
+    <destinationHost>192.168.0.2</destinationHost>
+    <port>6001</port>
+    <busId>1</busId>
+    <length>111</length>
+    <registerNumber>8</registerNumber>
+  </ModbusRequest>
+  <ModbusRequest>
+    <name>Modbus_192_168_0_2_6001_1_EMH_DI_119_75</name>
+    <commandType>1</commandType>
+    <destinationHost>192.168.0.2</destinationHost>
+    <port>6001</port>
+    <busId>1</busId>
+    <length>75</length>
+    <registerNumber>119</registerNumber>
+  </ModbusRequest>
+  <ModbusRequest>
+    <name>Modbus_192_168_0_2_6001_1_EMH_AI_8_34</name>
+    <commandType>3</commandType>
+    <destinationHost>192.168.0.2</destinationHost>
+    <port>6001</port>
+    <busId>1</busId>
+    <length>34</length>
+    <registerNumber>8</registerNumber>
+  </ModbusRequest>
+</linked-list>

@@ -1,0 +1,15 @@
+<linked-list>
+  <DeviceDefine>
+    <deviceId>de9ff2c9-cc39-49dd-912a-53e3cee9f4a0</deviceId>
+    <iSensorDefines>
+      <SensorDefine>
+        <name>LED.1.Temperature</name>
+        <registerIndex>2</registerIndex>
+        <scale>1</scale>
+        <isMean>true</isMean>
+        <commandName>Modbus_192_168_0_188_6001_1_LED.1.LED-AI-2-1</commandName>
+        <divider>10</divider>
+      </SensorDefine>
+    </iSensorDefines>
+  </DeviceDefine>
+</linked-list>

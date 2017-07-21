@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><linked-list>
+  <ModbusRequest>
+    <name>Modbus_KeShiDa_FocusAir_AC_DI_25_110</name>
+    <destinationHost>192.168.82.183</destinationHost>
+    <port>6001</port>
+    <busId>1</busId>
+    <commandType>1</commandType>
+    <registerNumber>25</registerNumber>
+    <length>86</length>
+  </ModbusRequest>
+  <ModbusRequest>
+    <name>Modbus_KeShiDa_FocusAir_AC_AI_40002_40028</name>
+    <destinationHost>192.168.82.183</destinationHost>
+    <port>6001</port>
+    <busId>1</busId>
+    <commandType>3</commandType>
+    <registerNumber>40002</registerNumber>
+    <length>27</length>
+  </ModbusRequest>
+  <ModbusRequest>
+    <name>Modbus_KeShiDa_FocusAir_AC_AI_40130_40137</name>
+    <destinationHost>192.168.82.183</destinationHost>
+    <port>6001</port>
+    <busId>1</busId>
+    <commandType>3</commandType>
+    <registerNumber>40130</registerNumber>
+    <length>8</length>
+  </ModbusRequest>
+</linked-list>

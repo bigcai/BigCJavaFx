@@ -1,0 +1,20 @@
+<linked-list>
+    <ModbusRequestAirc800>
+        <name>Modbus_192_168_0_185_6001_1_AIRC800_STATUS</name>
+        <commandType>4</commandType>
+        <destinationHost>192.168.0.185</destinationHost>
+        <port>6001</port>
+        <busId>1</busId>
+        <length>60</length>
+        <registerNumber>0</registerNumber>
+    </ModbusRequestAirc800>
+    <ModbusRequestAirc800>
+        <name>Modbus_192_168_0_185_6001_1_AIRC800_SETTING</name>
+        <commandType>9</commandType>
+        <destinationHost>192.168.0.185</destinationHost>
+        <port>6001</port>
+        <busId>1</busId>
+        <length>44</length>
+        <registerNumber>64</registerNumber>
+    </ModbusRequestAirc800>
+</linked-list>

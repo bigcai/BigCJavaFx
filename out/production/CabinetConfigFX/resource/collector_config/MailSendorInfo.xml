@@ -1,0 +1,13 @@
+<!--
+<MailSenderInfo>
+    <mailServerHost>smtp.gzjindun.com</mailServerHost>
+    <mailServerPort>25</mailServerPort>
+    <fromAddress>lwx@gzjindun.com</fromAddress>
+    <toAddress>498015727@qq.com</toAddress>
+    <userName>lwx@gzjindun.com</userName>
+    <password>key123</password>
+    <validate>true</validate>
+    <subject>一体柜报警</subject>
+    <content></content>
+</MailSenderInfo>
+-->

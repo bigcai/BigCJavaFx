@@ -1,0 +1,18 @@
+<linked-list>
+  <AlertDefine>
+    <id>23001</id>
+    <title>温度越值报警</title>
+    <category>2</category>
+    <level>0</level>
+    <descriptionPattern>{l:name}报警</descriptionPattern>
+    <rule class="Equal">
+      <name>温度越值</name>
+      <limit>1</limit>
+      <sensorValue class="SimpleSensorValue">
+        <deviceId>5e47e14b-747b-42cf-bf56-43e6ef8f7209</deviceId>
+        <propertyPath>SEMS.Alert.T.1.Over</propertyPath>
+      </sensorValue>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+</linked-list>

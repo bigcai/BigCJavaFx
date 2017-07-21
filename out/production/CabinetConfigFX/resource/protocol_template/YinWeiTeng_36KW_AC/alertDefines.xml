@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<linked-list>
+    <AlertDefine>
+        <id>10000</id>
+        <title>空调1掉线报警</title>
+        <category>4</category>
+        <level>1</level>
+        <descriptionPattern>空调1掉线报警</descriptionPattern>
+        <rule class="ValueNull">
+            <name>ac1</name>
+            <deviceId>a8610b25-76d6-4af1-801e-6b37675b54b7</deviceId>
+        </rule>
+        <enable>true</enable>
+    </AlertDefine>
+</linked-list>

@@ -1,0 +1,20 @@
+<linked-list>
+  <ModbusRequest>
+    <name>Modbus_keydak_SCCU_EN_V1_DI_3_12</name>
+    <commandType>2</commandType>
+    <destinationHost>192.168.0.2</destinationHost>
+    <port>6001</port>
+    <busId>3</busId>
+    <registerNumber>3</registerNumber>
+    <length>12</length>    
+  </ModbusRequest>
+  <ModbusRequest>
+    <name>Modbus_keydak_SCCU_EN_V1_AI_2_8</name>
+    <commandType>4</commandType>
+    <destinationHost>192.168.0.2</destinationHost>
+    <port>6001</port>
+    <busId>1</busId>
+    <registerNumber>2</registerNumber>
+    <length>8</length>  
+  </ModbusRequest>
+</linked-list>

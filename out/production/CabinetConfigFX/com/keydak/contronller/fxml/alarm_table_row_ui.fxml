@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="41.0" prefWidth="1190.0" type="javafx.scene.layout.VBox" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+      <FlowPane prefHeight="480.0" prefWidth="927.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="alarmId" prefHeight="35.0" prefWidth="86.0" text="告警ID">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </Label>
+             <Label fx:id="alarmName" prefHeight="35.0" prefWidth="166.0" text="告警名称">
+                 <padding>
+                     <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                 </padding>
+             </Label>
+             <Label fx:id="sensorName" prefHeight="35.0" prefWidth="145.0" text="传感器名称">
+                 <padding>
+                     <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                 </padding>
+             </Label>
+             <Label  fx:id="alarmLevel" prefHeight="35.0" prefWidth="79.0" text="告警级别">
+                 <padding>
+                     <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                 </padding>
+             </Label>
+             <Label  fx:id="category" prefHeight="35.0" prefWidth="53.0" text="分类">
+                 <padding>
+                     <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                 </padding>
+             </Label>
+             <Label fx:id="alarmCentent" prefHeight="35.0" prefWidth="171.0" text="告警内容">
+                 <padding>
+                     <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                 </padding>
+             </Label>
+             <Label  fx:id="status" prefHeight="35.0" prefWidth="76.0" text="是否开启">
+                 <padding>
+                     <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                 </padding>
+             </Label>
+             <Label  fx:id="rule" prefHeight="35.0" prefWidth="54.0" text="规则">
+                 <padding>
+                     <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                 </padding>
+             </Label>
+             <Label  fx:id="threshold" prefHeight="35.0" prefWidth="82.0" text="阀值">
+                 <padding>
+                     <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                 </padding>
+             </Label>
+             <FlowPane prefHeight="46.0" prefWidth="251.0" BorderPane.alignment="CENTER">
+                 <children>
+                     <Button fx:id="edit" mnemonicParsing="false" text="编辑">
+                     <FlowPane.margin>
+                        <Insets right="10.0" top="10.0" />
+                     </FlowPane.margin></Button>
+                     <Button fx:id="deleteBtn" mnemonicParsing="false" text="删除">
+                        <FlowPane.margin>
+                           <Insets right="10.0" top="10.0" />
+                        </FlowPane.margin>
+                     </Button>
+                 </children>
+             </FlowPane>
+         </children>
+      </FlowPane>
+</fx:root>

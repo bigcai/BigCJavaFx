@@ -1,0 +1,11 @@
+<linked-list>
+    <ModbusRequestAssetDi>
+        <name>assert_di_busid_1</name>
+        <commandType>1</commandType>
+        <destinationHost>192.168.82.183</destinationHost>
+        <port>6001</port>
+        <busId>1</busId>
+        <length>84</length>
+        <registerNumber>104</registerNumber>
+    </ModbusRequestAssetDi>
+</linked-list>

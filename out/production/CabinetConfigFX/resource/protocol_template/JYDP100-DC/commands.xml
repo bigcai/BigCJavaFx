@@ -1,0 +1,30 @@
+<!--template.JYDP100-DC 直流柜-->
+<linked-list>
+    <ModbusRequest>
+        <name>Modbus_10_234_211_101_6001_10_FC_AI_0x00_0x3C</name>
+        <commandType>3</commandType>
+        <destinationHost>10.234.211.101</destinationHost>
+        <port>6001</port>
+        <busId>10</busId>
+        <length>0x3C</length>
+        <registerNumber>0x00</registerNumber>
+    </ModbusRequest>
+	<ModbusRequest>
+        <name>Modbus_10_234_211_101_6001_10_FC_AI_0x60_0x1C</name>
+        <commandType>3</commandType>
+        <destinationHost>10.234.211.101</destinationHost>
+        <port>6001</port>
+        <busId>10</busId>
+        <length>0x1C</length>
+        <registerNumber>0x60</registerNumber>
+    </ModbusRequest>
+	<ModbusRequest>
+        <name>Modbus_10_234_211_101_6001_10_FC_DI_0x00_0x63</name>
+        <commandType>1</commandType>
+        <destinationHost>10.234.211.101</destinationHost>
+        <port>6001</port>
+        <busId>10</busId>
+        <length>0x63</length>
+        <registerNumber>0x00</registerNumber>
+    </ModbusRequest>
+</linked-list>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="509.0" prefWidth="510.0" type="javafx.scene.layout.BorderPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <VBox prefHeight="481.0" prefWidth="510.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="alertLabel" prefHeight="15.0" prefWidth="93.0" text="参数不能为空！" textAlignment="CENTER" textFill="#f20909">
+               <VBox.margin>
+                  <Insets left="205.0" top="30.0" />
+               </VBox.margin>
+            </Label>
+            <!--<Label text="文档名称">
+               <VBox.margin>
+                  <Insets left="30.0" top="30.0" />
+               </VBox.margin>
+            </Label>
+            <TextField fx:id="docName" prefHeight="41.0" prefWidth="396.0">
+               <VBox.margin>
+                  <Insets left="30.0" right="30.0" top="10.0" />
+               </VBox.margin>
+            </TextField>-->
+            <Label text="文档说明">
+               <VBox.margin>
+                  <Insets left="30.0" top="20.0" />
+               </VBox.margin>
+            </Label>
+            <TextField fx:id="docDesc" prefHeight="41.0" prefWidth="396.0">
+               <VBox.margin>
+                  <Insets left="30.0" right="30.0" top="10.0" />
+               </VBox.margin>
+            </TextField>
+            <Label text="上传文档">
+               <VBox.margin>
+                  <Insets left="30.0" top="20.0" />
+               </VBox.margin>
+            </Label>
+            <FlowPane prefHeight="49.0" prefWidth="471.0">
+               <children>
+                  <TextField fx:id="docDir" prefHeight="49.0" prefWidth="357.0">
+                     <FlowPane.margin>
+                        <Insets />
+                     </FlowPane.margin>
+                  </TextField>
+                  <Button fx:id="chooseBtn" mnemonicParsing="false" prefHeight="45.0" prefWidth="93.0" text="选择文件" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="30.0" right="30.0" top="10.0" />
+               </VBox.margin></FlowPane>
+            <Button fx:id="submitAdd" mnemonicParsing="false" prefHeight="46.0" prefWidth="450.0" text="提交">
+               <VBox.margin>
+                  <Insets left="30.0" right="30.0" top="30.0" />
+               </VBox.margin>
+            </Button>
+            <ProgressBar fx:id="myProgressBar" prefHeight="21.0" prefWidth="510.0" progress="0.0" >
+               <VBox.margin>
+                  <Insets left="30.0" right="30.0" top="30.0" />
+               </VBox.margin>
+            </ProgressBar>
+         </children>
+      </VBox>
+   </center>
+</fx:root>

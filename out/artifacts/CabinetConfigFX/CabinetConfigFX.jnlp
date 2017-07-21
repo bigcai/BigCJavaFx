@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CabinetConfigFX.jnlp">
+  <information>
+    <title>xx</title>
+    <vendor>xx</vendor>
+    <description>xxx</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="CabinetConfigFX.jar" size="722685" download="eager" />
+    <jar href="commons-lang3-3.3.jar" size="412642" download="eager" />
+    <jar href="dom4j-1.6.1.jar" size="313898" download="eager" />
+    <jar href="gson-2.5.jar" size="232482" download="eager" />
+    <jar href="jaxen-1.1.6.jar" size="231882" download="eager" />
+    <jar href="okhttp-3.4.1.jar" size="344481" download="eager" />
+    <jar href="okio-1.12.0.jar" size="81088" download="eager" />
+  </resources>
+<security>
+  <all-permissions/>
+</security>
+  <jfx:javafx-desc  width="1600" height="1400" main-class="com.keydak.Main"  name="CabinetConfigFX" />
+  <update check="background"/>
+</jnlp>

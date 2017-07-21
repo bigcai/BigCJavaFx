@@ -1,0 +1,15 @@
+<linked-list>
+	<AlertDefine>
+    <id>10000</id>
+    <title>机柜资产管理1掉线</title>
+    <category>4</category>
+    <level>1</level>
+    <descriptionPattern>机柜资产管理1掉线</descriptionPattern>
+    <rule class="ResponseNull">
+      <name>a-asset</name>
+	  <requestName>assert_di_busid_1</requestName>
+      <deviceId>f881a5e5-532c-49c5-9a9b-1f5bdfebc29d</deviceId>
+    </rule>
+    <enable>true</enable>
+  </AlertDefine>
+</linked-list>

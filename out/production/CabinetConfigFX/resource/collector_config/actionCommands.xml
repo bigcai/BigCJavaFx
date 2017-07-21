@@ -1,0 +1,11 @@
+<map>
+	<entry>
+		<string>close_Dormer</string>
+		<string-array>
+			<string>Magnet.1.SupplyPower</string>
+			<string>Magnet.2.SupplyPower</string>
+			<string>PushRod.Signal.Out</string>
+			<string>PushRod.Signal.Out.2</string>
+		</string-array>
+	</entry>
+</map>

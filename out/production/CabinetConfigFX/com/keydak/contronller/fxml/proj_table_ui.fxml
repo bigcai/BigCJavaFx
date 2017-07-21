@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="485.0" prefWidth="1098.0" type="javafx.scene.layout.BorderPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <FlowPane prefHeight="32.0" prefWidth="1098.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label prefHeight="35.0" prefWidth="136.0" text="项目名称">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </Label>
+             <Label prefHeight="35.0" prefWidth="136.0" text="资料交接时间">
+                 <padding>
+                     <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                 </padding>
+             </Label>
+             <Label prefHeight="35.0" prefWidth="136.0" text="软件交付时间">
+                 <padding>
+                     <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                 </padding>
+             </Label>
+             <Label prefHeight="35.0" prefWidth="99.0" text="负责人">
+                 <padding>
+                     <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                 </padding>
+             </Label>
+             <Label fx:id="colums_operater" prefHeight="35.0" prefWidth="520.0" text="操作" textAlignment="CENTER">
+                 <padding>
+                     <Insets bottom="10.0" left="170.0" right="10.0" top="10.0" />
+                 </padding>
+               <FlowPane.margin>
+                  <Insets />
+               </FlowPane.margin>
+
+             </Label>
+         </children>
+      </FlowPane>
+   </top>
+   <center>
+      <VBox fx:id="vBox" prefHeight="415.0" prefWidth="1098.0" BorderPane.alignment="CENTER" />
+   </center>
+</fx:root>

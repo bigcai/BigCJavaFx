@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="509.0" prefWidth="510.0" type="javafx.scene.layout.BorderPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <VBox prefHeight="481.0" prefWidth="510.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="alertLabel" prefHeight="15.0" prefWidth="93.0" text="参数不能为空！" textAlignment="CENTER" textFill="#f20909">
+               <VBox.margin>
+                  <Insets left="205.0" top="30.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="项目名称">
+               <VBox.margin>
+                  <Insets left="30.0" top="30.0" />
+               </VBox.margin>
+            </Label>
+            <TextField fx:id="projectName" prefHeight="41.0" prefWidth="396.0">
+               <VBox.margin>
+                  <Insets left="30.0" right="30.0" top="10.0" />
+               </VBox.margin>
+            </TextField>
+            <Label text="项目负责人">
+               <VBox.margin>
+                  <Insets left="30.0" top="20.0" />
+               </VBox.margin>
+            </Label>
+            <TextField fx:id="leader" prefHeight="41.0" prefWidth="396.0">
+               <VBox.margin>
+                  <Insets left="30.0" right="30.0" top="10.0" />
+               </VBox.margin>
+            </TextField>
+            <Label text="软件交付时间">
+               <VBox.margin>
+                  <Insets left="30.0" top="20.0" />
+               </VBox.margin>
+            </Label>
+            <DatePicker fx:id="payDate" prefHeight="41.0" prefWidth="450.0">
+               <VBox.margin>
+                  <Insets left="30.0" right="30.0" top="10.0" />
+               </VBox.margin>
+            </DatePicker>
+            <Label text="软件实施时间">
+               <VBox.margin>
+                  <Insets left="30.0" top="20.0" />
+               </VBox.margin>
+            </Label>
+            <DatePicker fx:id="carryOutDate" prefHeight="41.0" prefWidth="453.0">
+               <VBox.margin>
+                  <Insets left="30.0" right="30.0" top="10.0" />
+               </VBox.margin>
+            </DatePicker>
+            <Button fx:id="submitAdd" mnemonicParsing="false" prefHeight="46.0" prefWidth="450.0" text="提交">
+               <VBox.margin>
+                  <Insets left="30.0" right="30.0" top="30.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </center>
+</fx:root>

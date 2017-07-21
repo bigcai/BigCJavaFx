@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><linked-list>
+  <ModbusRequest>
+    <name>Modbus_192_168_82_184_6001_YinWeiTeng_36KW_AC_1_AI_0_33_busid_3</name>
+    <destinationHost>192.168.82.184</destinationHost>
+    <port>6001</port>
+    <busId>3</busId>
+    <commandType>3</commandType>
+    <registerNumber>0</registerNumber>
+    <length>34</length>
+  </ModbusRequest>
+</linked-list>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="cabinetconfigfx" default="all">
+  
+  
+  <property file="cabinetconfigfx.properties"/>
+  <!-- Uncomment the following property if no tests compilation is needed -->
+  <!-- 
+  <property name="skip.tests" value="true"/>
+   -->
+  
+  <!-- Compiler options -->
+  
+  <property name="compiler.debug" value="on"/>
+  <property name="compiler.generate.no.warnings" value="off"/>
+  <property name="compiler.args" value=""/>
+  <property name="compiler.max.memory" value="700m"/>
+  <patternset id="ignored.files">
+    <exclude name="**/*.hprof/**"/>
+    <exclude name="**/*.pyc/**"/>
+    <exclude name="**/*.pyo/**"/>
+    <exclude name="**/*.rbc/**"/>
+    <exclude name="**/*.yarb/**"/>
+    <exclude name="**/*~/**"/>
+    <exclude name="**/.DS_Store/**"/>
+    <exclude name="**/.git/**"/>
+    <exclude name="**/.hg/**"/>
+    <exclude name="**/.svn/**"/>
+    <exclude name="**/CVS/**"/>
+    <exclude name="**/RCS/**"/>
+    <exclude name="**/SCCS/**"/>
+    <exclude name="**/__pycache__/**"/>
+    <exclude name="**/_svn/**"/>
+    <exclude name="**/rcs/**"/>
+    <exclude name="**/vssver.scc/**"/>
+    <exclude name="**/vssver2.scc/**"/>
+  </patternset>
+  <patternset id="library.patterns">
+    <include name="*.egg"/>
+    <include name="*.jar"/>
+    <include name="*.ear"/>
+    <include name="*.apk"/>
+    <include name="*.swc"/>
+    <include name="*.war"/>
+    <include name="*.ane"/>
+    <include name="*.zip"/>
+  </patternset>
+  <patternset id="compiler.resources">
+    <exclude name="**/?*.java"/>
+    <exclude name="**/?*.form"/>
+    <exclude name="**/?*.class"/>
+    <exclude name="**/?*.groovy"/>
+    <exclude name="**/?*.scala"/>
+    <exclude name="**/?*.flex"/>
+    <exclude name="**/?*.kt"/>
+    <exclude name="**/?*.clj"/>
+  </patternset>
+  
+  <!-- JDK definitions -->
+  
+  <property name="jdk.bin.1.8" value="${jdk.home.1.8}/bin"/>
+  <path id="jdk.classpath.1.8">
+    <fileset dir="${jdk.home.1.8}">
+      <include name="jre/lib/charsets.jar"/>
+      <include name="jre/lib/deploy.jar"/>
+      <include name="jre/lib/ext/access-bridge-64.jar"/>
+      <include name="jre/lib/ext/cldrdata.jar"/>
+      <include name="jre/lib/ext/dnsns.jar"/>
+      <include name="jre/lib/ext/jaccess.jar"/>
+      <include name="jre/lib/ext/jfxrt.jar"/>
+      <include name="jre/lib/ext/localedata.jar"/>
+      <include name="jre/lib/ext/nashorn.jar"/>
+      <include name="jre/lib/ext/sunec.jar"/>
+      <include name="jre/lib/ext/sunjce_provider.jar"/>
+      <include name="jre/lib/ext/sunmscapi.jar"/>
+      <include name="jre/lib/ext/sunpkcs11.jar"/>
+      <include name="jre/lib/ext/zipfs.jar"/>
+      <include name="jre/lib/javaws.jar"/>
+      <include name="jre/lib/jce.jar"/>
+      <include name="jre/lib/jfr.jar"/>
+      <include name="jre/lib/jfxswt.jar"/>
+      <include name="jre/lib/jsse.jar"/>
+      <include name="jre/lib/management-agent.jar"/>
+      <include name="jre/lib/plugin.jar"/>
+      <include name="jre/lib/resources.jar"/>
+      <include name="jre/lib/rt.jar"/>
+    </fileset>
+  </path>
+  
+  <property name="project.jdk.home" value="${jdk.home.1.8}"/>
+  <property name="project.jdk.bin" value="${jdk.bin.1.8}"/>
+  <property name="project.jdk.classpath" value="jdk.classpath.1.8"/>
+  
+  
+  <!-- Project Libraries -->
+  
+  <path id="library.lombok-1.16.6.classpath">
+    <pathelement location="${basedir}/../../CAISZ/lib/lombok-1.16.6.jar"/>
+  </path>
+  
+  
+  <!-- Global Libraries -->
+  
+  
+  <!-- Application Server Libraries -->
+  <!-- Register Custom Compiler Taskdefs -->
+  <property name="javac2.home" value="${idea.home}/lib"/>
+  <path id="javac2.classpath">
+    <pathelement location="${javac2.home}/javac2.jar"/>
+    <pathelement location="${javac2.home}/jdom.jar"/>
+    <pathelement location="${javac2.home}/asm-all.jar"/>
+    <pathelement location="${javac2.home}/jgoodies-forms.jar"/>
+  </path>
+  <target name="register.custom.compilers">
+    <taskdef name="javac2" classname="com.intellij.ant.Javac2" classpathref="javac2.classpath"/>
+    <taskdef name="instrumentIdeaExtensions" classname="com.intellij.ant.InstrumentIdeaExtensions" classpathref="javac2.classpath"/>
+  </target>
+  
+  <!-- Modules -->
+  
+  <import file="${basedir}/module_cabinetconfigfx.xml"/>
+  
+  <target name="init" description="Build initialization">
+    <!-- Perform any build initialization in this target -->
+  </target>
+  
+  <target name="clean" depends="clean.module.cabinetconfigfx, clean.artifact.cabinetconfigfx" description="cleanup all"/>
+  
+  <target name="build.modules" depends="init, clean, compile.module.cabinetconfigfx" description="build all modules"/>
+  
+  <target name="init.artifacts">
+    <property name="artifacts.temp.dir" value="${basedir}/__artifacts_temp"/>
+    <property name="artifact.output.cabinetconfigfx" value="${basedir}/out/artifacts/CabinetConfigFX"/>
+    <mkdir dir="${artifacts.temp.dir}"/>
+    <property name="artifact.temp.output.CabinetConfigFX" value="${artifacts.temp.dir}/CabinetConfigFX.jar"/>
+    <taskdef resource="com/sun/javafx/tools/ant/antlib.xml" uri="javafx:com.sun.javafx.tools.ant" classpath="${jdk.home.1.8}/lib/ant-javafx.jar"/>
+  </target>
+  
+  <target name="clean.artifact.cabinetconfigfx" description="clean CabinetConfigFX artifact output">
+    <delete dir="${artifact.output.cabinetconfigfx}"/>
+  </target>
+  
+  <target name="artifact.cabinetconfigfx" depends="init.artifacts, compile.module.cabinetconfigfx" description="Build &#39;CabinetConfigFX&#39; artifact" xmlns:fx="javafx:com.sun.javafx.tools.ant">
+    <mkdir dir="${artifact.output.cabinetconfigfx}"/>
+    <copy todir="${artifact.temp.output.CabinetConfigFX}">
+      <fileset dir="${cabinetconfigfx.output.dir}"/>
+    </copy>
+    <fx:fileset id="all_but_CabinetConfigFX" dir="${artifact.temp.output.CabinetConfigFX}" includes="**/*.jar">
+      <exclude name="CabinetConfigFX.jar"/>
+    </fx:fileset>
+    <fx:fileset id="all_CabinetConfigFX" dir="${artifact.temp.output.CabinetConfigFX}" includes="**/*.jar"/>
+    <fx:application id="CabinetConfigFX_id" name="CabinetConfigFX" mainClass="com.keydak.Main"/>
+    <fx:csstobin outdir="${artifact.temp.output.CabinetConfigFX}">
+      <fileset dir="${artifact.temp.output.CabinetConfigFX}" includes="**/*.css"/>
+    </fx:csstobin>
+    <fx:jar destfile="${artifact.temp.output.CabinetConfigFX}\CabinetConfigFX.jar">
+      <fx:application refid="CabinetConfigFX_id"/>
+      <fileset dir="${artifact.temp.output.CabinetConfigFX}" excludes="**/*.jar"/>
+      <fx:resources>
+        <fx:fileset refid="all_but_CabinetConfigFX"/>
+      </fx:resources>
+      <manifest/>
+    </fx:jar>
+    <fx:deploy width="600" height="400" updatemode="background" outdir="${artifact.temp.output.CabinetConfigFX}\deploy" outfile="CabinetConfigFX" nativeBundles="exe">
+      <fx:permissions elevated="true"/>
+      <fx:application refid="CabinetConfigFX_id"/>
+      <fx:info title="xx" vendor="xx" description="xxx"/>
+      <fx:resources>
+        <fx:fileset refid="all_CabinetConfigFX"/>
+      </fx:resources>
+    </fx:deploy>
+    <property name="artifact.sign.vendor.CabinetConfigFX" value="CN=xx"/>
+    <property name="artifact.sign.alias.CabinetConfigFX" value="jb"/>
+    <property name="artifact.sign.keystore.CabinetConfigFX" value="${artifact.temp.output.CabinetConfigFX}\jb-key.jks"/>
+    <property name="artifact.sign.storepass.CabinetConfigFX" value="storepass"/>
+    <property name="artifact.sign.keypass.CabinetConfigFX" value="keypass"/>
+    <genkey dname="${artifact.sign.vendor.CabinetConfigFX}" alias="${artifact.sign.alias.CabinetConfigFX}" keystore="${artifact.sign.keystore.CabinetConfigFX}" storepass="${artifact.sign.storepass.CabinetConfigFX}" keypass="${artifact.sign.keypass.CabinetConfigFX}"/>
+    <signjar alias="${artifact.sign.alias.CabinetConfigFX}" keystore="${artifact.sign.keystore.CabinetConfigFX}" storepass="${artifact.sign.storepass.CabinetConfigFX}" keypass="${artifact.sign.keypass.CabinetConfigFX}">
+      <fileset dir="${artifact.temp.output.CabinetConfigFX}/deploy">
+        <include name="*.jar"/>
+      </fileset>
+    </signjar>
+    <copy todir="${artifact.output.cabinetconfigfx}">
+      <fileset dir="${artifact.temp.output.CabinetConfigFX}/deploy"/>
+    </copy>
+    <delete includeemptydirs="true">
+      <fileset dir="${artifact.temp.output.CabinetConfigFX}"/>
+    </delete>
+  </target>
+  
+  <target name="build.all.artifacts" depends="artifact.cabinetconfigfx" description="Build all artifacts">
+    
+    <!-- Delete temporary files -->
+    <delete dir="${artifacts.temp.dir}"/>
+  </target>
+  
+  <target name="all" depends="build.modules, build.all.artifacts" description="build all"/>
+</project>

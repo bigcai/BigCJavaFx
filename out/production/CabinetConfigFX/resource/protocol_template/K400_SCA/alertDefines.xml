@@ -1,0 +1,418 @@
+<linked-list>
+    <AlertDefine>
+        <id>21001</id>
+        <title>温度探头故障</title>
+        <category>3</category>
+        <level>2</level>
+        <descriptionPattern>精密空调A室外温度探头故障报警</descriptionPattern>
+        <rule class="Equal">
+            <name>精密空调A室外温度探头故障</name>
+            <limit>1</limit>
+            <sensorValue class="SimpleSensorValue">
+                <deviceId>1ed39055-6ed6-4db6-b530-b7a5c5937b73</deviceId>
+                <propertyPath>AC.Alert.OutdoorTemperatureProbeFailed</propertyPath>
+            </sensorValue>
+        </rule>
+        <enable>true</enable>
+    </AlertDefine>
+    <AlertDefine>
+        <id>21002</id>
+        <title>湿度探头故障</title>
+        <category>3</category>
+        <level>2</level>
+        <descriptionPattern>精密空调A房间湿度探头故障报警</descriptionPattern>
+        <rule class="Equal">
+            <name>精密空调A房间湿度探头故障</name>
+            <limit>1</limit>
+            <sensorValue class="SimpleSensorValue">
+                <deviceId>1ed39055-6ed6-4db6-b530-b7a5c5937b73</deviceId>
+                <propertyPath>AC.Alert.RoomHumidityProbeFailed</propertyPath>
+            </sensorValue>
+        </rule>
+        <enable>true</enable>
+    </AlertDefine>
+    <AlertDefine>
+        <id>21003</id>
+        <title>温度探头故障</title>
+        <category>3</category>
+        <level>2</level>
+        <descriptionPattern>精密空调A送风温度探头故障报警</descriptionPattern>
+        <rule class="Equal">
+            <name>精密空调A送风温度探头故障</name>
+            <limit>1</limit>
+            <sensorValue class="SimpleSensorValue">
+                <deviceId>1ed39055-6ed6-4db6-b530-b7a5c5937b73</deviceId>
+                <propertyPath>AC.Alert.SupplyAirTemperatureProbeFailed</propertyPath>
+            </sensorValue>
+        </rule>
+        <enable>true</enable>
+    </AlertDefine>
+    <AlertDefine>
+        <id>21004</id>
+        <title>温度探头故障</title>
+        <category>3</category>
+        <level>2</level>
+        <descriptionPattern>精密空调A室内温度探头故障报警</descriptionPattern>
+        <rule class="Equal">
+            <name>精密空调A室内温度探头故障</name>
+            <limit>1</limit>
+            <sensorValue class="SimpleSensorValue">
+                <deviceId>1ed39055-6ed6-4db6-b530-b7a5c5937b73</deviceId>
+                <propertyPath>AC.Alert.IndoorTemperatureProbeFailed</propertyPath>
+            </sensorValue>
+        </rule>
+        <enable>true</enable>
+    </AlertDefine>
+    <AlertDefine>
+        <id>21005</id>
+        <title>低湿告警</title>
+        <category>3</category>
+        <level>2</level>
+        <descriptionPattern>精密空调A低湿告警</descriptionPattern>
+        <rule class="Equal">
+            <name>精密空调A低湿告警</name>
+            <limit>1</limit>
+            <sensorValue class="SimpleSensorValue">
+                <deviceId>1ed39055-6ed6-4db6-b530-b7a5c5937b73</deviceId>
+                <propertyPath>AC.Alert.LowHumidity</propertyPath>
+            </sensorValue>
+        </rule>
+        <enable>true</enable>
+    </AlertDefine>
+    <AlertDefine>
+        <id>21006</id>
+        <title>高湿告警</title>
+        <category>3</category>
+        <level>2</level>
+        <descriptionPattern>精密空调A高湿告警</descriptionPattern>
+        <rule class="Equal">
+            <name>精密空调A高湿告警</name>
+            <limit>1</limit>
+            <sensorValue class="SimpleSensorValue">
+                <deviceId>1ed39055-6ed6-4db6-b530-b7a5c5937b73</deviceId>
+                <propertyPath>AC.Alert.HighHumidity</propertyPath>
+            </sensorValue>
+        </rule>
+        <enable>true</enable>
+    </AlertDefine>
+    <AlertDefine>
+        <id>21007</id>
+        <title>低温告警</title>
+        <category>3</category>
+        <level>2</level>
+        <descriptionPattern>精密空调A低温告警</descriptionPattern>
+        <rule class="Equal">
+            <name>精密空调A低温告警</name>
+            <limit>1</limit>
+            <sensorValue class="SimpleSensorValue">
+                <deviceId>1ed39055-6ed6-4db6-b530-b7a5c5937b73</deviceId>
+                <propertyPath>AC.Alert.LowTemperature</propertyPath>
+            </sensorValue>
+        </rule>
+        <enable>true</enable>
+    </AlertDefine>
+    <AlertDefine>
+        <id>21008</id>
+        <title>高温告警</title>
+        <category>3</category>
+        <level>2</level>
+        <descriptionPattern>精密空调A高温告警</descriptionPattern>
+        <rule class="Equal">
+            <name>精密空调A高温告警</name>
+            <limit>1</limit>
+            <sensorValue class="SimpleSensorValue">
+                <deviceId>1ed39055-6ed6-4db6-b530-b7a5c5937b73</deviceId>
+                <propertyPath>AC.Alert.HighTemperature</propertyPath>
+            </sensorValue>
+        </rule>
+        <enable>true</enable>
+    </AlertDefine>
+    <AlertDefine>
+        <id>21009</id>
+        <title>空气过滤网告警</title>
+        <category>3</category>
+        <level>2</level>
+        <descriptionPattern>精密空调A空气过滤网告警</descriptionPattern>
+        <rule class="Equal">
+            <name>精密空调A空气过滤网告警</name>
+            <limit>1</limit>
+            <sensorValue class="SimpleSensorValue">
+                <deviceId>1ed39055-6ed6-4db6-b530-b7a5c5937b73</deviceId>
+                <propertyPath>AC.Alert.AirFilter</propertyPath>
+            </sensorValue>
+        </rule>
+        <enable>true</enable>
+    </AlertDefine>
+    <AlertDefine>
+        <id>21010</id>
+        <title>加热器过载告警</title>
+        <category>3</category>
+        <level>2</level>
+        <descriptionPattern>精密空调A加热器过载告警</descriptionPattern>
+        <rule class="Equal">
+            <name>精密空调A加热器过载告警</name>
+            <limit>1</limit>
+            <sensorValue class="SimpleSensorValue">
+                <deviceId>1ed39055-6ed6-4db6-b530-b7a5c5937b73</deviceId>
+                <propertyPath>AC.Alert.HeaterOverload</propertyPath>
+            </sensorValue>
+        </rule>
+        <enable>true</enable>
+    </AlertDefine>
+    <AlertDefine>
+        <id>21011</id>
+        <title>风机过载告警</title>
+        <category>3</category>
+        <level>2</level>
+        <descriptionPattern>精密空调A风机过载告警</descriptionPattern>
+        <rule class="Equal">
+            <name>精密空调A风机过载告警</name>
+            <limit>1</limit>
+            <sensorValue class="SimpleSensorValue">
+                <deviceId>1ed39055-6ed6-4db6-b530-b7a5c5937b73</deviceId>
+                <propertyPath>AC.Alert.FanOverload</propertyPath>
+            </sensorValue>
+        </rule>
+        <enable>true</enable>
+    </AlertDefine>
+    <AlertDefine>
+        <id>21012</id>
+        <title>气流丢失告警</title>
+        <category>3</category>
+        <level>2</level>
+        <descriptionPattern>精密空调A气流丢失告警</descriptionPattern>
+        <rule class="Equal">
+            <name>精密空调A气流丢失告警</name>
+            <limit>1</limit>
+            <sensorValue class="SimpleSensorValue">
+                <deviceId>1ed39055-6ed6-4db6-b530-b7a5c5937b73</deviceId>
+                <propertyPath>AC.Alert.LossOfAirflow</propertyPath>
+            </sensorValue>
+        </rule>
+        <enable>true</enable>
+    </AlertDefine>
+    <AlertDefine>
+        <id>21013</id>
+        <title>压缩机一低压告警</title>
+        <category>3</category>
+        <level>2</level>
+        <descriptionPattern>精密空调A压缩机一低压告警</descriptionPattern>
+        <rule class="Equal">
+            <name>精密空调A压缩机一低压告警</name>
+            <limit>1</limit>
+            <sensorValue class="SimpleSensorValue">
+                <deviceId>1ed39055-6ed6-4db6-b530-b7a5c5937b73</deviceId>
+                <propertyPath>AC.Alert.Compressor1LowPressure</propertyPath>
+            </sensorValue>
+        </rule>
+        <enable>true</enable>
+    </AlertDefine>
+    <AlertDefine>
+        <id>21014</id>
+        <title>压缩机一高压告警</title>
+        <category>3</category>
+        <level>2</level>
+        <descriptionPattern>精密空调A压缩机一高压告警</descriptionPattern>
+        <rule class="Equal">
+            <name>精密空调A压缩机一高压告警</name>
+            <limit>1</limit>
+            <sensorValue class="SimpleSensorValue">
+                <deviceId>1ed39055-6ed6-4db6-b530-b7a5c5937b73</deviceId>
+                <propertyPath>AC.Alert.Compressor1HighPressure</propertyPath>
+            </sensorValue>
+        </rule>
+        <enable>true</enable>
+    </AlertDefine>
+    <AlertDefine>
+        <id>21015</id>
+        <title>压缩机二低压告警</title>
+        <category>3</category>
+        <level>2</level>
+        <descriptionPattern>精密空调A压缩机二低压告警</descriptionPattern>
+        <rule class="Equal">
+            <name>精密空调A压缩机二低压告警</name>
+            <limit>1</limit>
+            <sensorValue class="SimpleSensorValue">
+                <deviceId>1ed39055-6ed6-4db6-b530-b7a5c5937b73</deviceId>
+                <propertyPath>AC.Alert.Compressor2LowPressure</propertyPath>
+            </sensorValue>
+        </rule>
+        <enable>true</enable>
+    </AlertDefine>
+    <AlertDefine>
+        <id>21016</id>
+        <title>压缩机二高压告警</title>
+        <category>3</category>
+        <level>2</level>
+        <descriptionPattern>精密空调A压缩机二高压告警</descriptionPattern>
+        <rule class="Equal">
+            <name>精密空调A压缩机二高压告警</name>
+            <limit>1</limit>
+            <sensorValue class="SimpleSensorValue">
+                <deviceId>1ed39055-6ed6-4db6-b530-b7a5c5937b73</deviceId>
+                <propertyPath>AC.Alert.Compressor2HighPressure</propertyPath>
+            </sensorValue>
+        </rule>
+        <enable>true</enable>
+    </AlertDefine>
+    <AlertDefine>
+        <id>21017</id>
+        <title>电源告警</title>
+        <category>3</category>
+        <level>2</level>
+        <descriptionPattern>精密空调A电源告警</descriptionPattern>
+        <rule class="Equal">
+            <name>精密空调A电源告警</name>
+            <limit>1</limit>
+            <sensorValue class="SimpleSensorValue">
+                <deviceId>1ed39055-6ed6-4db6-b530-b7a5c5937b73</deviceId>
+                <propertyPath>AC.Alert.Power</propertyPath>
+            </sensorValue>
+        </rule>
+        <enable>true</enable>
+    </AlertDefine>
+    <AlertDefine>
+        <id>21018</id>
+        <title>冷凝风机1告警</title>
+        <category>3</category>
+        <level>2</level>
+        <descriptionPattern>精密空调A冷凝风机1告警</descriptionPattern>
+        <rule class="Equal">
+            <name>精密空调A冷凝风机1告警</name>
+            <limit>1</limit>
+            <sensorValue class="SimpleSensorValue">
+                <deviceId>1ed39055-6ed6-4db6-b530-b7a5c5937b73</deviceId>
+                <propertyPath>AC.Alert.CondensingFan1</propertyPath>
+            </sensorValue>
+        </rule>
+        <enable>true</enable>
+    </AlertDefine>
+    <AlertDefine>
+        <id>21019</id>
+        <title>冷凝风机2告警</title>
+        <category>3</category>
+        <level>2</level>
+        <descriptionPattern>精密空调A冷凝风机2告警</descriptionPattern>
+        <rule class="Equal">
+            <name>精密空调A冷凝风机2告警</name>
+            <limit>1</limit>
+            <sensorValue class="SimpleSensorValue">
+                <deviceId>1ed39055-6ed6-4db6-b530-b7a5c5937b73</deviceId>
+                <propertyPath>AC.Alert.CondensingFan2</propertyPath>
+            </sensorValue>
+        </rule>
+        <enable>true</enable>
+    </AlertDefine>
+    <AlertDefine>
+        <id>21020</id>
+        <title>烟雾告警</title>
+        <category>3</category>
+        <level>2</level>
+        <descriptionPattern>精密空调A烟雾告警</descriptionPattern>
+        <rule class="Equal">
+            <name>精密空调A烟雾告警</name>
+            <limit>1</limit>
+            <sensorValue class="SimpleSensorValue">
+                <deviceId>1ed39055-6ed6-4db6-b530-b7a5c5937b73</deviceId>
+                <propertyPath>AC.Alert.Smoke</propertyPath>
+            </sensorValue>
+        </rule>
+        <enable>true</enable>
+    </AlertDefine>
+    <AlertDefine>
+        <id>21021</id>
+        <title>用户告警</title>
+        <category>3</category>
+        <level>2</level>
+        <descriptionPattern>精密空调A用户告警</descriptionPattern>
+        <rule class="Equal">
+            <name>精密空调A用户告警</name>
+            <limit>1</limit>
+            <sensorValue class="SimpleSensorValue">
+                <deviceId>1ed39055-6ed6-4db6-b530-b7a5c5937b73</deviceId>
+                <propertyPath>AC.Alert.User</propertyPath>
+            </sensorValue>
+        </rule>
+        <enable>true</enable>
+    </AlertDefine>
+    <AlertDefine>
+        <id>21022</id>
+        <title>溢流告警</title>
+        <category>3</category>
+        <level>2</level>
+        <descriptionPattern>精密空调A溢流告警</descriptionPattern>
+        <rule class="Equal">
+            <name>精密空调A溢流告警</name>
+            <limit>1</limit>
+            <sensorValue class="SimpleSensorValue">
+                <deviceId>1ed39055-6ed6-4db6-b530-b7a5c5937b73</deviceId>
+                <propertyPath>AC.Alert.Overflow</propertyPath>
+            </sensorValue>
+        </rule>
+        <enable>true</enable>
+    </AlertDefine>
+    <AlertDefine>
+        <id>21023</id>
+        <title>相序告警</title>
+        <category>3</category>
+        <level>2</level>
+        <descriptionPattern>精密空调A相序告警</descriptionPattern>
+        <rule class="Equal">
+            <name>精密空调A相序告警</name>
+            <limit>1</limit>
+            <sensorValue class="SimpleSensorValue">
+                <deviceId>1ed39055-6ed6-4db6-b530-b7a5c5937b73</deviceId>
+                <propertyPath>AC.Alert.PhaseSequence</propertyPath>
+            </sensorValue>
+        </rule>
+        <enable>true</enable>
+    </AlertDefine>
+    <AlertDefine>
+        <id>21024</id>
+        <title>无加湿电流告警</title>
+        <category>3</category>
+        <level>2</level>
+        <descriptionPattern>精密空调A无加湿电流告警</descriptionPattern>
+        <rule class="Equal">
+            <name>精密空调A无加湿电流告警</name>
+            <limit>1</limit>
+            <sensorValue class="SimpleSensorValue">
+                <deviceId>1ed39055-6ed6-4db6-b530-b7a5c5937b73</deviceId>
+                <propertyPath>AC.Alert.NoHumidificationCurrent</propertyPath>
+            </sensorValue>
+        </rule>
+        <enable>true</enable>
+    </AlertDefine>
+    <AlertDefine>
+        <id>21025</id>
+        <title>加湿器缺水告警</title>
+        <category>3</category>
+        <level>2</level>
+        <descriptionPattern>精密空调A加湿器缺水告警</descriptionPattern>
+        <rule class="Equal">
+            <name>精密空调A加湿器缺水告警</name>
+            <limit>1</limit>
+            <sensorValue class="SimpleSensorValue">
+                <deviceId>1ed39055-6ed6-4db6-b530-b7a5c5937b73</deviceId>
+                <propertyPath>AC.Alert.HumidifierWaterShortage</propertyPath>
+            </sensorValue>
+        </rule>
+        <enable>true</enable>
+    </AlertDefine>
+    <AlertDefine>
+        <id>21026</id>
+        <title>加湿器电流过大告警</title>
+        <category>3</category>
+        <level>2</level>
+        <descriptionPattern>精密空调A加湿器电流过大告警</descriptionPattern>
+        <rule class="Equal">
+            <name>精密空调A加湿器电流过大告警</name>
+            <limit>1</limit>
+            <sensorValue class="SimpleSensorValue">
+                <deviceId>1ed39055-6ed6-4db6-b530-b7a5c5937b73</deviceId>
+                <propertyPath>AC.Alert.HumidifierCurrentTooLarge</propertyPath>
+            </sensorValue>
+        </rule>
+        <enable>true</enable>
+    </AlertDefine>
+</linked-list>

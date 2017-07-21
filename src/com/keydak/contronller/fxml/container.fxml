@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="704.0" prefWidth="1210.0" type="javafx.scene.layout.BorderPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <center>
+        <BorderPane prefHeight="659.0" prefWidth="1047.0" BorderPane.alignment="CENTER">
+            <top>
+                <Label text="项目管理" style="-fx-font-size: 2em; -fx-text-fill: #4B4B4B;" BorderPane.alignment="TOP_LEFT">
+                    <BorderPane.margin>
+                        <Insets left="20.0" top="12.0" />
+                    </BorderPane.margin>
+                </Label>
+            </top>
+            <center>
+                <Pagination fx:id="pagination" prefHeight="465.0" prefWidth="716.0" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets bottom="10.0" left="30.0" right="10.0" top="20.0" />
+               </BorderPane.margin></Pagination>
+            </center>
+        </BorderPane>
+    </center>
+    <right>
+        <Button fx:id="addProject" mnemonicParsing="false" text="添加项目" BorderPane.alignment="TOP_RIGHT" style="-fx-font-size: 1.2em; -fx-background-color: #0099FF; -fx-text-fill: #fff;-fx-border-color: rgb(49, 89, 23);-fx-border-radius: 5;-fx-padding: 3 6 6 6;">
+         <BorderPane.margin>
+            <Insets right="10.0" top="20.0" />
+         </BorderPane.margin></Button>
+    </right>
+</fx:root>
